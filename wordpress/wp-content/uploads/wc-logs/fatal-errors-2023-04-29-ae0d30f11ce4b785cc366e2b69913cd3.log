@@ -1,0 +1,10 @@
+2023-04-29T18:10:07+00:00 CRITICAL Uncaught Error: Class 'Requests_Exception' not found in C:\xampp\htdocs\store\wordpress\wp-includes\Requests\Transport\cURL.php:443
+Stack trace:
+#0 C:\xampp\htdocs\store\wordpress\wp-includes\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\store\wordpress\wp-includes\class-requests.php(381): Requests_Transport_cURL->request('http://localhos...', Array, NULL, Array)
+#2 C:\xampp\htdocs\store\wordpress\wp-includes\class-requests.php(711): Requests::request('http://localhos...', Array, NULL, 'POST', Array)
+#3 C:\xampp\htdocs\store\wordpress\wp-includes\class-requests.php(385): Requests::parse_response(Array, 'http://localhos...', Array, NULL, Array)
+#4 C:\xampp\htdocs\store\wordpress\wp-includes\class-wp-http.php(395): Requests::request('http://localhos...', Array, NULL, 'POST', Array)
+#5 C:\xampp\htdocs\store\wordpress\wp-includes\class-wp-http.php(615): WP_Http->request('http://localhos...', Array)
+#6 C:\xampp\htdocs\store\wordpress\wp-includes\http.php( في C:\xampp\htdocs\store\wordpress\wp-includes\Requests\Transport\cURL.php في السطر 443
+
